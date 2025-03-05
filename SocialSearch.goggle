@@ -1,5 +1,5 @@
 ! name: Social Search
-! description: Filter only social media results.
+! description: Filter only social media results. Includes both federated/decentralized and mainstream platforms.
 ! public: true
 ! author: Jarema
 ! homepage: https://github.com/jartf/BraveSearchGoggle
