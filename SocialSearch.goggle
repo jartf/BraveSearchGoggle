@@ -1,0 +1,64 @@
+! name: Social Search
+! description: Filter only social media results.
+! public: true
+! author: Jarema
+! homepage: https://github.com/jartf/BraveSearchGoggle
+
+$discard
+
+! Federated social platforms
+$boost=3,site=bsky.app
+$boost=3,site=mastodon.social
+$boost=3,site=mstdn.social
+$boost=3,site=threads.net
+$boost=3,site=mas.to
+$boost=3,site=pixelfed.social
+$boost=3,site=pixelfed.de
+$boost=3,site=toot.io
+$boost=3,site=mstdn.jp
+$boost=3,site=infosec.exchange
+$boost=3,site=mastodon.world
+$boost=3,site=piaille.fr
+$boost=3,site=mastodon.online
+$boost=3,site=fosstodon.org
+$boost=3,site=hachyderm.net
+$boost=3,site=social.vivaldi.org
+$boost=3,site=mastodon.nl
+$boost=3,site=mastodon.cloud
+$boost=3,site=techhub.social
+$boost=3,site=mastodon.uno
+$boost=3,site=masto.ai
+$boost=3,site=mastodon.sdf.org
+$boost=3,site=c.im
+$boost=3,site=loforo.com
+$boost=3,site=mstdn.party
+$boost=3,site=m.cmx.im
+$boost=3,site=troet.cafe
+$boost=3,site=mastodon.art
+$boost=3,site=pixelfed.uno
+$boost=3,site=phijkchu.com
+$boost=3,site=wirtube.de
+$boost=3,site=lemmy.world
+$boost=3,site=lemm.ee
+$boost=3,site=programming.dev
+$boost=3,site=lemmy.ca
+$boost=3,site=sh.itjust.works
+$boost=3,site=misskey.io
+$boost=3,site=misskey.design
+$boost=3,site=sushi.ski
+$boost=3,site=micro.blog
+$boost=3,site=dill.burggit.moe
+$boost=3,site=fe.disroot.org
+$boost=3,site=blob.cat
+
+! Mainstream platforms
+$boost=3,site=reddit.com
+$boost=3,site=tumblr.com
+$boost=3,site=youtube.com
+$boost=3,site=twitter.com
+$boost=3,site=instagram.com
+$boost=3,site=facebook.com
+$boost=3,site=tiktok.com
+$boost=3,site=pinterest.com
+$boost=3,site=medium.com
+$boost=3,site=linkedin.com
