@@ -1,0 +1,98 @@
+! name: Vietnamese sites
+! description: A Goggle for Vietnamese sites.
+! public: true
+! author: Jarema
+! homepage: https://github.com/jartf/BraveSearchGoggle
+
+! Generic boosting
+*vietnam*$boost=1
+$boost=2,site=vn
+$boost=4,site=gov.vn
+
+! News (State media)
+$boost=3,site=vtv.vn
+$boost=3,site=vov.vn
+$boost=3,site=vnexpress.net
+$boost=3,site=vietnamnet.vn
+$boost=3,site=tuoitre.vn
+$boost=3,site=tuoitrenews.vn
+$boost=3,site=dantri.com.vn
+$boost=3,site=thanhnien.vn
+$boost=3,site=vietnamplus.vn
+$boost=3,site=laodong.vn
+$boost=3,site=tienphong.vn
+$boost=3,site=nld.com.vn
+$boost=3,site=vietbao.vn
+$boost=3,site=vietbao.vn
+$boost=3,site=danviet.vn
+$boost=3,site=plo.vn
+$boost=3,site=vnanet.vn
+$boost=3,site=congan.com.vn
+$boost=3,site=vietnamnews.vn
+$boost=3,site=suckhoedoisong.vn
+$boost=3,site=doisongphapluat.com.vn
+$boost=3,site=vietnamtimes.org.vn
+$boost=3,site=thoidai.vn
+$boost=3,site=baotintuc.vn
+$boost=3,site=vietnamlawmagzine.vn
+$boost=3,site=dantocmiennui.vn
+$boost=3,site=lecourrier.vn
+$boost=3,site=bnews.vn
+$boost=3,site=thethaovanhoa.vn
+$boost=3,site=bizhub.vn
+$boost=3,site=ovietnam.vn
+$boost=3,site=vietq.vn
+$boost=3,site=kinhtedothi.vn
+$boost=3,site=vir.com.vn
+$boost=3,site=hanoimoi.vn
+
+! News (Private sector)
+$boost=3,site=baomoi.com
+$boost=3,site=soha.vn
+$boost=3,site=cafef.vn
+$boost=3,site=vneconomy.vn
+$boost=3,site=vietnaminsider.vn
+$boost=3,site=vietnaminsiders.com
+$boost=3,site=kenh14.vn
+$boost=3,site=thesaigontimes.vn
+$boost=3,site=znews.vn
+$boost=3,site=afamily.vn
+$boost=3,site=cafebiz.vn
+$boost=3,site=genk.vn
+
+! News (International)
+/topics/vietnam$boost=3,site=scmp.com
+/topic/destination/vietnam$boost=3,site=nytimes.com
+/news/topics/c207p54m4n2t$boost=3,site=bbc.com
+/where/vietnam/$boost=3,site=aljazeera.com
+
+! Sports
+$boost=3,site=24h.com.vn
+$boost=3,site=bongdaplus.vn
+$boost=3,site=bongda.com.vn
+$boost=3,site=yeuthethao.net.vn
+$boost=3,site=vothuat.vn
+
+! Gaming
+$boost=3,site=gamek.vn
+$boost=3,site=garena.vn
+
+! Shopping
+$boost=3,site=shopee.vn
+$boost=3,site=lazada.vn
+$boost=3,site=sendo.vn
+$boost=3,site=chotot.com
+$boost=3,site=cellphones.com.vn
+$boost=3,site=fptshop.com.vn
+$boost=3,site=viettelstore.vn
+
+! Auto
+$boost=3,site=autopro.com.vn
+$boost=3,site=vinfast.com
+
+! Blogs
+$boost=3,site=saigoneer.com
+$boost=3,site=vietcetera.com
+
+! Forums
+/r/VietNam/$boost=3,site=reddit.com
