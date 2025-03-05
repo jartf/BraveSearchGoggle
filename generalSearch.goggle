@@ -1,7 +1,7 @@
 ! name: Jarema's general purpose Brave Search Goggle
 ! description: A general purpose Goggle tailored to my liking.
 ! public: true
-! author: Jarema (jartf)
+! author: Jarema
 ! homepage: https://github.com/jartf/BraveSearchGoggle
 
 $boost=3,site=reddit.com
