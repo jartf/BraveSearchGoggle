@@ -23,7 +23,6 @@ $boost=3,site=cnbc.com
 $boost=3,site=scmp.com
 $boost=3,site=aljazeera.com
 $boost=3,site=pewresearch.org
-$boost=3,site=bbc.com
 
 ! Tech
 $boost=3,site=blog.ycombinator.com
@@ -53,4 +52,4 @@ $boost=3,site=tradingview.com
 ! !!! Downrank and discard !!! !
 
 ! Political nonsense
-/vietnamese/$downrank=4,site=bbc.com
+/vietnamese/$discard,site=bbc.com
