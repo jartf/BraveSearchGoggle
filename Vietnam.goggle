@@ -10,6 +10,13 @@ $boost=2,site=vn
 $boost=3,site=edu.vn
 $boost=4,site=gov.vn
 
+! Government
+$boost=4,site=chinhphu.vn
+$boost=4,site=baochinhphu.vn
+$boost=4,site=quochoi.vn
+$boost=4,site=vbpl.vn
+$boost=4,site=dangcongsan.org.vn
+
 ! News (State media)
 $boost=3,site=vtv.vn
 $boost=3,site=vov.vn
@@ -46,6 +53,7 @@ $boost=3,site=vietq.vn
 $boost=3,site=kinhtedothi.vn
 $boost=3,site=vir.com.vn
 $boost=3,site=hanoimoi.vn
+$boost=3,site=baophapluat.vn
 
 ! News (Private sector)
 $boost=3,site=baomoi.com
@@ -66,6 +74,10 @@ $boost=3,site=genk.vn
 /topic/destination/vietnam$boost=3,site=nytimes.com
 /news/topics/c207p54m4n2t$boost=3,site=bbc.com
 /where/vietnam/$boost=3,site=aljazeera.com
+
+! Law
+$boost=3,site=thuvienphapluat.vn
+$boost=3,site=luatvietnam.vn
 
 ! Sports
 $boost=3,site=24h.com.vn
@@ -96,4 +108,6 @@ $boost=3,site=saigoneer.com
 $boost=3,site=vietcetera.com
 
 ! Forums
+$boost=3,site=voz.vn
+$boost=3,site=xamvn.nl
 /r/VietNam/$boost=3,site=reddit.com
