@@ -52,13 +52,13 @@ $boost=3,site=fe.disroot.org
 $boost=3,site=blob.cat
 
 ! Mainstream platforms
-$boost=3,site=reddit.com
-$boost=3,site=tumblr.com
-$boost=3,site=youtube.com
-$boost=3,site=twitter.com
-$boost=3,site=instagram.com
-$boost=3,site=facebook.com
-$boost=3,site=tiktok.com
-$boost=3,site=pinterest.com
-$boost=3,site=medium.com
-$boost=3,site=linkedin.com
+$boost=1,site=reddit.com
+$boost=1,site=tumblr.com
+$boost=1,site=youtube.com
+$boost=1,site=twitter.com
+$boost=1,site=instagram.com
+$boost=1,site=facebook.com
+$boost=1,site=tiktok.com
+$boost=1,site=pinterest.com
+$boost=1,site=medium.com
+$boost=1,site=linkedin.com
