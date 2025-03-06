@@ -4,9 +4,14 @@
 ! author: Jarema
 ! homepage: https://github.com/jartf/BraveSearchGoggle
 
+! General boosting 
+*vietnam*$boost=1,site=vn
+
+! Forums
 $boost=3,site=reddit.com
 $boost=3,site=github.io
 
+! News
 $boost=3,site=goodnewsnetwork.org
 $boost=3,site=reuters.com
 $boost=3,site=bbcnews.co.uk
@@ -20,13 +25,10 @@ $boost=3,site=aljazeera.com
 $boost=3,site=pewresearch.org
 $boost=3,site=bbc.com
 
+! Tech
 $boost=3,site=blog.ycombinator.com
 $boost=3,site=news.ycombinator.com
 $boost=3,site=rachelbythebay.com
-$boost=3,site=krebsonsecurity.com
-$boost=3,site=citizenlab.ca
-$boost=3,site=aclu.org
-$boost=3,site=security.googleblog.com
 $boost=3,site=blog.system76.com
 $boost=3,site=teachyourselfcs.com
 $boost=3,site=blog.torproject.org
@@ -34,12 +36,21 @@ $boost=3,site=blog.google
 $boost=3,site=blogs.msdn.com
 $boost=3,site=developers.googleblog.com
 $boost=3,site=cyberinsider.com
+$boost=3,site=eff.org
+$boost=3,site=wikileaks.org
+$boost=3,site=krebsonsecurity.com
+$boost=3,site=citizenlab.ca
+$boost=3,site=aclu.org
+$boost=3,site=security.googleblog.com
+$boost=3,site=ifixit.org
 
+! Finance
 $boost=3,site=sec.gov
 $boost=3,site=marketwatch.com
 $boost=3,site=tradingview.com
 
-$boost=3,site=eff.org
-$boost=3,site=wikileaks.org
 
-$boost=3,site=ifixit.org
+! !!! Downrank and discard !!! !
+
+! Political nonsense
+/vietnamese/$downrank=4,site=bbc.com
