@@ -5,8 +5,7 @@
 ! homepage: https://github.com/jartf/BraveSearchGoggle
 
 ! Generic boosting
-*vietnam*$boost=1
-$boost=2,site=vn
+*vietnam*$boost=2,site=vn
 $boost=3,site=edu.vn
 $boost=4,site=gov.vn
 
